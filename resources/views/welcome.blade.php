@@ -19,15 +19,11 @@
       <!-- Fonts -->
       <link rel="dns-prefetch" href="//fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-      <!-- Icons -->
-      <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
 
       <!-- Styles -->
       <link href="{{ asset('css/app.css') }}" rel="stylesheet">
       <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
-      <!-- Linear Icons JS -->
-      <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
     </head>
     <body>
         <div id="app">

@@ -97,6 +97,7 @@ export default {
             //remove token
             localStorage.removeItem('token');
             this.$emit('logout');
+
             //go to sign in page
             this.$router.push({
                 name: 'signin'
