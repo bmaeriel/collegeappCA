@@ -15,22 +15,22 @@
                             <div class="form-row">
                                 <div class="form-group col-lg-6 col-sm-12">
                                     <label class="required" for="name">Name<span class="asterik">&ast;</span></label>
-                                    <input id="name" type="text" v-model="lecturer.name" class="form-control" name="name" autocomplete="name" required>
+                                    <b-form-input id="name" type="text" v-model="lecturer.name" class="form-control" name="name" autocomplete="name" required></b-form-input>
                                       <span class="errors">{{ getErrors('name') }}</span>
                                 </div>
                                 <div class="form-group col-lg-6 col-sm-12">
                                     <label class="required" for="address">Address<span class="asterik">&ast;</span></label>
-                                    <input id="address" v-model="lecturer.address" type="text" class="form-control" name="address" autocomplete="address" required>
+                                    <b-form-input id="address" v-model="lecturer.address" type="text" class="form-control" name="address" autocomplete="address" required></b-form-input>
                                       <span class="errors">{{ getErrors('address') }}</span>
                                 </div>
                                 <div class="form-group col-12">
                                     <label class="required" for="email">Email<span class="asterik">&ast;</span></label>
-                                    <input id="email" v-model="lecturer.email" type="email" class="form-control" name="email" autocomplete="email"></input>
+                                    <b-form-input id="email" v-model="lecturer.email" type="email" class="form-control" name="email" autocomplete="email"></b-form-input>
                                       <span class="errors">{{ getErrors('email') }}</span>
                                 </div>
                                 <div class="form-group col-12">
                                     <label class="required" for="phone">Phone<span class="asterik">&ast;</span></label>
-                                    <input id="phone" v-model="lecturer.phone" type="text" class="form-control" name="phone" required autocomplete="phone" required>
+                                    <b-form-input id="phone" v-model="lecturer.phone" type="text" class="form-control" name="phone" required autocomplete="phone" required></b-form-input>
                                       <span class="errors">{{ getErrors('phone') }}</span>
                                 </div>
                                 <div class="col-lg-3 col-sm-6">

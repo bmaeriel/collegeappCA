@@ -15,12 +15,12 @@
                             <div class="form-row">
                                 <div class="form-group col-lg-6 col-sm-12">
                                     <label class="required" for="Title">Title<span class="asterik">&ast;</span></label>
-                                    <input id="title" type="text" v-model="course.title" class="form-control" name="title" autocomplete="title" required>
+                                    <b-form-input id="title" type="text" v-model="course.title" class="form-control" name="title" autocomplete="title" required></b-form-input>
                                     <span class="errors">{{ getErrors('title') }}</span>
                                 </div>
                                 <div class="form-group col-lg-6 col-sm-12">
                                     <label class="required" for="code">Code<span class="asterik">&ast;</span></label>
-                                    <input id="code" v-model="course.code" type="text" class="form-control" name="code" autocomplete="code" required>
+                                    <b-form-input id="code" v-model="course.code" type="text" class="form-control" name="code" autocomplete="code" required></b-form-input>
                                     <span class="errors">{{ getErrors('code') }}</span>
                                 </div>
                                 <div class="form-group col-12">
@@ -30,7 +30,7 @@
                                 </div>
                                 <div class="form-group col-12">
                                     <label class="required" for="points">Points<span class="asterik">&ast;</span></label>
-                                    <input id="points" v-model="course.points" type="text" class="form-control" name="points" required autocomplete="points" required>
+                                    <b-form-input id="points" v-model="course.points" type="text" class="form-control" name="points" required autocomplete="points" required></b-form-input>
                                     <span class="errors">{{ getErrors('points') }}</span>
                                 </div>
                                 <div class="form-group col-12">

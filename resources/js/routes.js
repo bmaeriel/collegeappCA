@@ -59,7 +59,6 @@ export default [
             component: viewEnrolment,
             name: 'viewEnrolment'
           }
-
       ],
       meta: {
         authRequired: true

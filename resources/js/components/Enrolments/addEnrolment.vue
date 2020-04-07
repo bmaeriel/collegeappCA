@@ -41,7 +41,7 @@
                                 </div>
                                 <div class="form-group col-lg-6 col-sm-12 pr-0">
                                     <label class="required" for="time">Time<span class="asterik">&ast;</span></label>
-                                    <input id="time" v-model="enrolment.time" type="time" class="form-control" name="time" autocomplete="time"></input>
+                                    <b-form-input id="time" v-model="enrolment.time" type="time" class="form-control" name="time" autocomplete="time"></b-form-input>
                                     <span class="errors">{{ getErrors('time') }}</span>
                                 </div>
                               </div>
